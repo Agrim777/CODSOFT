@@ -1,0 +1,61 @@
+import java.util.*;
+public class java{
+    public static void main( String args[]){
+        
+        Scanner sc = new Scanner( System.in);
+        
+        System.out.print("enter your marks for 1st subject ");
+        int sub1=sc.nextInt();
+        System.out.print("enter your marks for 2nd subject ");
+         int sub2=sc.nextInt();
+        System.out.print("enter your marks for 3rd subject ");
+        int sub3=sc.nextInt();
+        
+        System.out.println();
+        
+        int totalm=sub1+sub2+sub3;
+        int total=totalm/3;
+        
+         System.out.print("CALCULATING YOUR GRADE : ");
+          System.out.println();
+          
+           System.out.print("YOUR Total marks are :" + totalm);
+          
+          
+          System.out.println();
+          
+          
+          System.out.print("YOUR PERCENTAGE IS :" + total );
+          
+          
+        System.out.println();
+
+         
+        
+        if(total>=80){
+            System.out.print("GRADE : A ");
+        }
+        else if ( total>=70){
+            System.out.print("GRADE : B");
+            
+        }
+        
+        else if ( total>=60){
+            System.out.print("GRADE : c ");
+        }
+        else if ( total>=40){
+            System.out.print("GRADE : D ");
+        }
+        else{
+             System.out.print("GRADE : F");
+        }
+        
+        
+        
+        
+    }
+    
+    
+    
+    
+}
